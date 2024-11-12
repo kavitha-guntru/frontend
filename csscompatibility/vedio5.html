@@ -1,0 +1,22 @@
+<h2>Responsive Grid with Media Queries</h2>
+<div style="display: grid; grid-template-columns: 1fr; gap: 10px; padding: 20px;">
+  <div><img src="https://via.placeholder.com/600x400" alt="Sample Image" style="width: 100%;"></div>
+  <div><video width="100%" controls>
+    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video></div>
+</div>
+
+<!-- Media Query for responsive layout -->
+<style>
+  @media (min-width: 600px) {
+    div {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 1000px) {
+    div {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>

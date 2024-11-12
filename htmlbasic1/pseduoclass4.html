@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div, Span, and Pseudo-Classes</title>
+  <style>
+    /* Adding some pseudo-classes and pseudo-elements */
+    a:hover {
+      color: blue; /* Changes link color on hover */
+    }
+
+    p::first-line {
+      font-weight: bold; /* Makes the first line bold */
+    }
+
+    /* Styling for the anchor links */
+    .section-link:hover {
+      color: red;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Division and Span with text -->
+  <div>
+    <p>This is a <span style="color: green;">div</span> section containing a <span>span</span> element.</p>
+  </div>
+
+  <!-- Paragraph to demonstrate pseudo-element -->
+  <p>This paragraph’s first line is bold.</p>
+
+  <!-- Anchor with pseudo-class -->
+  <p><a href="#another-section" class="section-link">Hover over this link</a> to see the hover effect.</p>
+
+</body>
+</html>

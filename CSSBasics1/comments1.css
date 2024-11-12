@@ -1,0 +1,14 @@
+/* Main container styling */
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  /* Header section styling */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  

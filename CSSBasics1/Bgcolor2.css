@@ -1,0 +1,9 @@
+
+/* Page background color */
+    body {
+      background-color: #f0f0f0;
+      background-image: url('images.jpg');
+      background-size: cover; /* Resize background image */
+      background-attachment: fixed; /* Prevents image from scrolling */
+      background-repeat: no-repeat;
+    }

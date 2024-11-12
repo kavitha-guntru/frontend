@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position Properties</title>
+  <style>
+    .static-box {
+      position: static;
+      background-color: lightblue;
+      width: 200px;
+      height: 100px;
+      margin: 10px;
+    }
+
+    .relative-box {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      background-color: lightgreen;
+      width: 200px;
+      height: 100px;
+    }
+
+    .fixed-box {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: lightcoral;
+      width: 200px;
+      height: 100px;
+    }
+
+    .absolute-box {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: lightgoldenrodyellow;
+      width: 200px;
+      height: 100px;
+    }
+
+    .sticky-box {
+      position: sticky;
+      top: 0;
+      background-color: lightgray;
+      width: 200px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="static-box">Static Position</div>
+  <div class="relative-box">Relative Position</div>
+  <div class="fixed-box">Fixed Position</div>
+  <div class="absolute-box">Absolute Position</div>
+  <div class="sticky-box">Sticky Position</div>
+</body>
+</html>

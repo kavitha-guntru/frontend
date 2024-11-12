@@ -1,0 +1,12 @@
+.box-px {
+    width: 300px;
+    height: 150px;
+    background-color: lightcoral;
+}
+.box-percent {
+    width: 50%;
+    height: 50%;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+  

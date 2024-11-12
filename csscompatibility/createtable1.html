@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Layout Example</title>
+  <style>
+    /* Table with fixed layout */
+    .table-fixed {
+      table-layout: fixed;
+      width: 100%;
+    }
+
+    /* Table with auto layout */
+    .table-auto {
+      table-layout: auto;
+      width: 100%;
+    }
+
+    /* Styling for table */
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Table with Fixed Layout</h2>
+  <table class="table-fixed">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alice</td>
+      <td>24</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>30</td>
+      <td>Canada</td>
+    </tr>
+  </table>
+
+  <h2>Table with Auto Layout</h2>
+  <table class="table-auto">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alice</td>
+      <td>24</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>30</td>
+      <td>Canada</td>
+    </tr>
+  </table>
+
+</body>
+</html>
